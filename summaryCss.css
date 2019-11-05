@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://www.molodnews.info/wp-content/uploads/2019/08/Cl9cPfrWQAQS1Rx.jpg);
+    background-repeat: repeat;
+    background-size: 30%;
+}
+
+section{
+    font-size: 22px;
+    background-color: rgba(36, 151, 93, 0.9);
+    float: left;
+    width: 57%;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: justify;
+    line-height: 1.3;
+    transition: 0.3s ease-out;
+}
+
+section:hover{
+    width: 65%; 
+}
+
+.firstH{
+    text-align: center;
+    text-decoration: underline;
+    text-shadow:0 0 4px green;
+}
+
+#name{
+    text-align: center;
+    color:black;
+    font-size: 36px;
+    font-weight: bolder;
+    text-shadow:0 0 4px green;
+}
+
+#foto1{
+    display: block;
+    float: left;
+    width: 450px;
+    margin: 10px;
+    border-radius: 10%;
+    border: 2px solid green;
+}
+
+#num{
+    font-weight: bolder;
+}
+
+a{
+    color:gold;
+    text-decoration: none;
+}
+
+h3{
+    color: rgb(7, 8, 8);
+}
+
+li{
+    margin-left: 20px;
+}
+
+.education, .skills{
+    margin-left: 485px;
+}
+
+.aboutMe{
+    margin-bottom: 60px;
+}
+
+#me, .educationText{
+    width: 800px;
+}
